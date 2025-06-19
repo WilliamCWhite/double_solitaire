@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://cslrxjko0ku4f"]
+
+[ext_resource type="Script" uid="uid://x25c8atwermb" path="res://scripts/stack.gd" id="1_mus87"]
+[ext_resource type="PackedScene" uid="uid://dyehyqeikmw33" path="res://scenes/top_card_sprites.tscn" id="1_tpkvb"]
+
+[node name="stack" type="Node2D"]
+script = ExtResource("1_mus87")
+
+[node name="hidden_pile" type="Node2D" parent="."]
+
+[node name="pile_sprite" type="Sprite2D" parent="hidden_pile"]
+
+[node name="top_sprite" type="Sprite2D" parent="hidden_pile"]
+
+[node name="build_pile" type="Node2D" parent="."]
+
+[node name="top_card" type="Node2D" parent="."]
+
+[node name="top_card_sprites" parent="top_card" instance=ExtResource("1_tpkvb")]
+
+[node name="area" type="Area2D" parent="top_card"]
+
+[node name="collision" type="CollisionShape2D" parent="top_card/area"]

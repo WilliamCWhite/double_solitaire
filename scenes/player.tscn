@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://pui4b2aqld64"]
+
+[ext_resource type="PackedScene" uid="uid://dyehyqeikmw33" path="res://scenes/top_card_sprites.tscn" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://cj76ml4vu8j3l" path="res://scripts/player.gd" id="1_g2els"]
+
+[node name="player" type="Node2D"]
+script = ExtResource("1_g2els")
+
+[node name="stacks" type="Node2D" parent="."]
+
+[node name="deck" type="Node2D" parent="."]
+
+[node name="back_card" type="Sprite2D" parent="deck"]
+
+[node name="pile" type="Sprite2D" parent="deck"]
+
+[node name="area" type="Area2D" parent="deck"]
+
+[node name="collision" type="CollisionShape2D" parent="deck/area"]
+
+[node name="flip" type="Node2D" parent="."]
+
+[node name="current_flip" type="Node2D" parent="flip"]
+
+[node name="first_card_sprites" parent="flip/current_flip" instance=ExtResource("1_3vyb7")]
+
+[node name="second_card_sprites" parent="flip/current_flip" instance=ExtResource("1_3vyb7")]
+
+[node name="third_card_sprites" parent="flip/current_flip" instance=ExtResource("1_3vyb7")]
+
+[node name="area" type="Area2D" parent="flip/current_flip"]
+
+[node name="collision" type="CollisionShape2D" parent="flip/current_flip/area"]
+
+[node name="buried_flip" type="Node2D" parent="flip"]
+
+[node name="top_card" type="Node2D" parent="flip/buried_flip"]
+
+[node name="top_card_sprites" parent="flip/buried_flip/top_card" instance=ExtResource("1_3vyb7")]
+
+[node name="pile" type="Sprite2D" parent="flip/buried_flip"]

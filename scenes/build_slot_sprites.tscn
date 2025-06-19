@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bctudbff80fqn"]
+
+[node name="build_slot_sprites" type="Node2D"]
+metadata/suit = ""
+metadata/number = -1
+
+[node name="outline" type="Sprite2D" parent="."]
+
+[node name="suit" type="Sprite2D" parent="."]
+
+[node name="number" type="Sprite2D" parent="."]

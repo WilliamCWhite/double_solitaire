@@ -11,9 +11,8 @@ config_version=5
 [application]
 
 config/name="double_solitaire"
-run/main_scene="uid://bobdms3men63c"
+run/main_scene="uid://b4iew7f858mri"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [rendering]
 
