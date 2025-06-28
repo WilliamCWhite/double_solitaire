@@ -1,8 +1,9 @@
-[gd_scene format=3 uid="uid://bctudbff80fqn"]
+[gd_scene load_steps=2 format=3 uid="uid://bctudbff80fqn"]
+
+[ext_resource type="Script" uid="uid://b15dydf35avua" path="res://scripts/build_slot_sprites.gd" id="1_icwfu"]
 
 [node name="build_slot_sprites" type="Node2D"]
-metadata/suit = ""
-metadata/number = -1
+script = ExtResource("1_icwfu")
 
 [node name="outline" type="Sprite2D" parent="."]
 

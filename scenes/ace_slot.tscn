@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://drfke06x6ek6e"]
+
+[ext_resource type="Script" uid="uid://dewv66ml1tto4" path="res://scripts/ace_slot.gd" id="1_pbb42"]
+[ext_resource type="PackedScene" uid="uid://dyehyqeikmw33" path="res://scenes/top_card_sprites.tscn" id="2_n1hta"]
+
+[node name="ace_slot" type="Node2D"]
+script = ExtResource("1_pbb42")
+
+[node name="top_card_sprites" parent="." instance=ExtResource("2_n1hta")]
+
+[node name="hidden_sprite" type="Sprite2D" parent="."]
+rotation = 3.14159

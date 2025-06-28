@@ -7,6 +7,10 @@
 					"hidden_pile": [],
 					"build_pile": [
 						{
+							"suit": "C",
+							"number": 13
+						},
+						{
 							"suit": "H",
 							"number": 1
 						}
@@ -20,6 +24,22 @@
 						}
 					],
 					"build_pile": [
+						{
+							"suit": "D",
+							"number": 12
+						},
+						{
+							"suit": "S",
+							"number": 11
+						},
+						{
+							"suit": "C",
+							"number": 10
+						},
+						{
+							"suit": "H",
+							"number": 9
+						},
 						{
 							"suit": "H",
 							"number": 3
@@ -38,6 +58,10 @@
 						}
 					],
 					"build_pile": [
+						{
+							"suit": "C",
+							"number": 13
+						},
 						{
 							"suit": "H",
 							"number": 6
@@ -265,5 +289,76 @@
 			}
 		}
 	},
-	"ace_slots": []
+	"ace_slots": [
+		{
+			"cards": []
+		},
+		{
+			"cards": [
+				{
+					"suit": "S",
+					"number": 13
+				}
+			]
+		},
+		{
+			"cards": [
+				{
+					"suit": "S",
+					"number": 1
+				},
+				{
+					"suit": "S",
+					"number": 2
+				},
+				{
+					"suit": "S",
+					"number": 3
+				},
+				{
+					"suit": "S",
+					"number": 4
+				},
+				{
+					"suit": "S",
+					"number": 5
+				},
+				{
+					"suit": "S",
+					"number": 6
+				},
+				{
+					"suit": "S",
+					"number": 7
+				},
+				{
+					"suit": "S",
+					"number": 8
+				},
+				{
+					"suit": "S",
+					"number": 9
+				},
+				{
+					"suit": "S",
+					"number": 10
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 12
+				},
+				{
+					"suit": "S",
+					"number": 13
+				}
+			]
+		},
+		{
+			"cards": []
+		}
+	]
 }

@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://pui4b2aqld64"]
+[gd_scene load_steps=4 format=3 uid="uid://pui4b2aqld64"]
 
 [ext_resource type="PackedScene" uid="uid://dyehyqeikmw33" path="res://scenes/top_card_sprites.tscn" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://cj76ml4vu8j3l" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Script" uid="uid://bqfdre5odkx4u" path="res://scripts/deck.gd" id="2_qhqgy"]
 
 [node name="player" type="Node2D"]
 script = ExtResource("1_g2els")
@@ -9,10 +10,12 @@ script = ExtResource("1_g2els")
 [node name="stacks" type="Node2D" parent="."]
 
 [node name="deck" type="Node2D" parent="."]
+script = ExtResource("2_qhqgy")
 
 [node name="back_card" type="Sprite2D" parent="deck"]
 
 [node name="pile" type="Sprite2D" parent="deck"]
+rotation = 3.14159
 
 [node name="area" type="Area2D" parent="deck"]
 
