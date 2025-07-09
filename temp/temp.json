@@ -1,0 +1,280 @@
+{
+	"stacks": [
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				},
+				{
+					"suit": "D",
+					"number": 4
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				},
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "H",
+					"number": 10
+				},
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				},
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "H",
+					"number": 10
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				}
+			]
+		},
+		{
+			"hidden_cards": [
+				{
+					"suit": "H",
+					"number": 10
+				},
+				{
+					"suit": "D",
+					"number": 4
+				}
+			],
+			"shown_cards": [
+				{
+					"suit": "S",
+					"number": 11
+				},
+				{
+					"suit": "D",
+					"number": 10
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,98 @@
+[gd_scene load_steps=4 format=3 uid="uid://csi8vty5g4axg"]
+
+[ext_resource type="Script" uid="uid://dqy6q5xljd4aw" path="res://scripts/stack.gd" id="1_mus87"]
+[ext_resource type="PackedScene" uid="uid://cq37xgsir0nbw" path="res://scenes/face_card.tscn" id="1_tpkvb"]
+[ext_resource type="PackedScene" uid="uid://rg0jj4cwyv6w" path="res://scenes/build_card.tscn" id="3_4rw1r"]
+
+[node name="stack" type="Node2D"]
+script = ExtResource("1_mus87")
+
+[node name="sprites" type="Node2D" parent="."]
+
+[node name="stack_slot_outline" type="Sprite2D" parent="sprites"]
+
+[node name="hidden_stack" type="Sprite2D" parent="sprites"]
+
+[node name="flipped_card" type="Sprite2D" parent="sprites"]
+
+[node name="build_sprites" type="Node2D" parent="sprites"]
+
+[node name="build_card_0" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_1" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_2" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_3" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_4" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_5" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_6" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_7" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_8" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_9" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_10" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="build_card_11" parent="sprites/build_sprites" instance=ExtResource("3_4rw1r")]
+
+[node name="face_card" parent="sprites" instance=ExtResource("1_tpkvb")]
+
+[node name="hitboxes" type="Node2D" parent="."]
+
+[node name="face_area" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/face_area"]
+
+[node name="build_area_0" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_0"]
+
+[node name="build_area_1" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_1"]
+
+[node name="build_area_2" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_2"]
+
+[node name="build_area_3" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_3"]
+
+[node name="build_area_4" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_4"]
+
+[node name="build_area_5" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_5"]
+
+[node name="build_area_6" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_6"]
+
+[node name="build_area_7" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_7"]
+
+[node name="build_area_8" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_8"]
+
+[node name="build_area_9" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_9"]
+
+[node name="build_area_10" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_10"]
+
+[node name="build_area_11" type="Area2D" parent="hitboxes"]
+
+[node name="collision" type="CollisionShape2D" parent="hitboxes/build_area_11"]
